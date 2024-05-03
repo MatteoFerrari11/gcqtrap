@@ -58,8 +58,6 @@ for i = Nt_up:Nt_down
 
     elseif i == 7
 
-        floor(set_Nq*Nt*log(Nt)^2)
-        floor(2*Nt*log(Nt)^2)
         semilogy(floor(set_Nq*Nt*log(Nt)^2),err_2_Radau,'+b','LineWidth',1.7);
         hold on
         semilogy(floor(set_Nq*Nt*log(Nt)^2),err_2_Radau,'b','LineWidth',2);
